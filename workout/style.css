@@ -1,0 +1,39 @@
+
+/* halaman utama */
+
+
+.iconhitam{
+    color: black;
+}
+.warna-bg{
+    background: linear-gradient(to right, rgba(210, 223, 25, 0),rgba(218, 182, 20, 0));
+   
+}
+
+.card-img-top{
+    image-resolution: 20px;
+    
+}
+/* akhir */
+
+/* halaman back */
+.jumbotron-back{
+
+    background: linear-gradient(to right, rgba(210, 223, 25, 0.562),rgba(218, 182, 20, 0));
+
+
+
+}
+.warna-back{
+   background-color: yellow;
+}
+
+/* navbar */
+.bodyhome{
+    background-image: url('img/bgback.jpg');
+   background-size: 500px;
+
+ 
+   /* overflow: hidden; */
+}
+

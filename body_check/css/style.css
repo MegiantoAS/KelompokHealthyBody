@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'roboto', sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url('../img/background.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+}
+
+/* inputan */
+.inputan{
+    position: absolute;
+    left: 45px;
+    top: 80px;
+    padding: 20px 25px;
+   
+}
+.inputan h1{
+    text-align: left;
+    color: #000000;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    border-bottom: 2.5px solid #fda151;
+}
+.inputan p{
+    text-align: justify;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.inputan label{
+    text-align: left;
+    margin-bottom: 0px;
+    color: #000000;
+}
+.inputan form input{
+    width: 250px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #fda151;
+    color: #000000;
+    font-size: 18px;
+}
+.inputan form button{
+    width: 250px;
+    padding: 5px 0;
+    border: none;
+    background:#b46e37;
+    cursor: pointer;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/* outputan */
+.outputan{
+  
+    position: absolute;
+    left: 350px;
+    top: 300px;
+    padding: 20px 25px;
+    background-color: rgba(8, 8, 1, 0.205) ;
+    text-shadow: black;
+    border-radius: 20px;
+    display:inline;
+
+    
+
+    
+
+}
+.outputan input {
+    width: 100px;
+    margin-top:5px;
+    margin-right: 5px;
+    padding: 5px 0;
+    border: none;
+    background-color:#b46e37;
+    font-size: 18px;
+    color: #ffffff;
+}
+.outputan button{
+    width: 130px;
+    margin-top:5px;
+    padding: 5px 0;
+    border: none;
+    background-color:#b46e37;
+    font-size: 18px;
+    color: #ffffff;
+}
